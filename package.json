@@ -1,6 +1,6 @@
 {
   "name": "@39digits/eslint-config-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An ESLint shareable config for use on React projects including Prettier and optional TypeScript support",
   "main": "index.js",
   "scripts": {

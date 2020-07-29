@@ -7,13 +7,13 @@
 Either use [install-peerdeps](https://www.npmjs.com/package/install-peerdeps) via _npx_ to install this shareable config and its peer dependencies automatically.
 
 ```shell
-npx install-peerdeps --dev eslint-config-39digits
+npx install-peerdeps --dev @39digits/eslint-config-react
 ```
 
 Or explicitly install everything in one line using _npm_.
 
 ```shell
-npm install --save-dev eslint babel-eslint eslint-config-39digits eslint-config-prettier eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks prettier
+npm install --save-dev eslint babel-eslint @39digits/eslint-config-react eslint-config-prettier eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks prettier
 ```
 
 ### Usage
