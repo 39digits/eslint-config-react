@@ -20,7 +20,7 @@ npm install --save-dev eslint babel-eslint eslint-config-39digits eslint-config-
 
 Now create a `.eslintrc.js` configuration file in your project root and add `@39digits/eslint-config-react` to the `extends` field. Add any extra rules you want to use under the `rules` section.
 
-```json
+```
 {
   "extends": ["@39digits/eslint-config-react"],
   "rules": {
@@ -119,7 +119,7 @@ Install the [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeume
 
 Add the following to your Visual Studio Code `settings.json` preferences file.
 
-```json
+```
 {
   // When you save a file it will run any formatters (i.e. Prettier)
   "editor.formatOnSave": true,
